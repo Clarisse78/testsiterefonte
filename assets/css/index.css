@@ -1,0 +1,125 @@
+/* Main with Image Proxima */
+.main-background{
+	position: relative;
+	background-image: url("../img/Fond.png");
+	background-size: cover;
+	height: 100vh;
+	background-color: transparent;
+	border: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.text-box {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+    padding-top: 10%;
+}
+
+.text-box h1 {
+	font-size: 110px;
+	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+    letter-spacing: -10px;
+}
+
+.text-box p {
+	font-size: 50px;
+	color: #171a3d;
+    letter-spacing: -4px;
+}
+
+.bouton {
+	display: inline-block;
+	text-decoration: none;
+	color: #ee4719;
+	border: 2px solid black;
+	padding: 15px 30px;
+	font-size: 20px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	background: rgba(0,0,0,.6);
+	font-variant: small-caps;
+}
+
+.bouton:hover {
+	border: 1px solid #1e224c;
+	background: #1e224c;
+	transition: 1s;
+}
+
+/* Columns with infos */
+
+.column{
+	background-color: #EFECEC;
+}
+
+.col-1{
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+.col-1 h2 {
+	font-size: 2rem;
+	padding-top: 5%;
+}
+
+.column p {
+	font-size: .95rem;
+	color: #777;
+}
+
+.column h3 {
+	font-size: 1.75rem;
+	padding-bottom: 5%;
+	letter-spacing: -1.5px;
+}
+
+.row-3 div:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	z-index:10;
+}
+
+.row-3{
+	padding: 8% 10% 10% 10%;
+	text-align: center;
+}
+
+@media (min-width:767px) {
+	.row-3{
+		display: flex;
+	}
+}
+
+.row-3 div {
+	border-radius: 10px;
+	padding: 3% 4% 3% 4%;
+	background: #fff3f3;
+	transition: all 0.5s ease-out;
+}
+
+.row-3 p{
+	margin-bottom: 5%;
+}
+
+.row-3 i {
+	vertical-align: middle;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.row-3 a{
+	color: rgb(74, 74, 224);
+}
+
+a:hover {
+	color: rgb(58, 58, 198);
+  }

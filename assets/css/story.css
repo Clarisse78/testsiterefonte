@@ -1,0 +1,85 @@
+/*Story section*/
+.story{
+	background-color: #EFECEC;
+	padding-bottom: 4%;
+}
+
+.story h1{
+	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background-clip: border-box;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	padding-top: 40px;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: -3px;
+}
+
+.card-story{
+	background: #fff3f3;
+	border-radius: 6px;
+	margin: 3% 4% 0% 4%;
+	border-radius: 10px;
+	padding: 3%;
+	border-left: 2px solid #1e224c;
+	border-right: 2px solid #1e224c;
+}
+
+.card-story p{
+	font-family: 'Dancing Script', cursive;
+}
+
+
+/*Members section*/
+
+.members{
+	background-color: #EFECEC;
+	padding-bottom: 4%;
+}
+
+.members .row {
+	align-items: center; 
+	margin: 0% 4% 0% 4%;
+	align-items: stretch; 
+}
+
+
+@media (min-width:767px) {
+	.members .row {
+		display: flex;
+	}
+}
+
+.members .col{
+	background: #fff3f3;
+	text-align: center;
+	padding: 3%;
+	border-radius: 10px;
+	border: 2px solid #1e224c;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.members .col img{
+	padding-top: 5%;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+	vertical-align: middle; /* aligner verticalement les images */
+}
+
+.members h1{
+	text-align: center;
+	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background-clip: border-box;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 36px;
+	letter-spacing: -3px;
+	padding-bottom: 3%;
+}
+

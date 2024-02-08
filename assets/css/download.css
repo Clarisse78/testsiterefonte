@@ -1,0 +1,124 @@
+/* Section Defenses*/
+.defenses{
+	background-color: #EFECEC;
+}
+.defenses h1{
+	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background-clip: border-box;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	padding-top: 40px;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: -3px;
+}
+
+.row{
+	justify-content: center;
+	gap: 4%;
+}
+
+@media (min-width:767px) {
+	.row {
+		display: flex;
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.liste-sout {
+	text-align: left;
+	font-size: 17px;
+	letter-spacing: -1px;
+	margin-left: 7%;
+
+}
+
+h2 {
+	font-size: 2rem;
+	letter-spacing: -2px;
+	text-align: center;
+}
+  
+
+.text-box {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	background: -webkit-linear-gradient(top, #070927 , #d33c0e );
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	border: black;
+}
+
+.bouton {
+	text-decoration: none;
+	color: #ee4719;
+	box-shadow: 0 0 0 2px black;
+	padding: 15px 30px;
+	font-size: 20px;
+	background: transparent;
+	cursor: pointer;
+	background: rgba(0,0,0,.6);
+	transition: 1s;
+
+}
+
+
+.bouton:hover {
+	background: #1e224c;
+  }
+
+  a:hover {
+	color: #0a58cb;
+  }
+
+
+  /* Section Images*/
+
+  .images-proxima{
+	background-color: #EFECEC;
+	padding: 4%;
+}
+
+  .grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto); 
+    grid-column-gap: 10px; 
+    grid-row-gap: 10px;
+  }
+
+  @media (min-width:1001px)
+  {
+	.grid{
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, auto); 
+		grid-column-gap: 10px; 
+		grid-row-gap: 10px;
+	  }
+  }
+
+  @media (max-width:767px)
+  {
+	.grid{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(6, auto); 
+		grid-column-gap: 10px; 
+		grid-row-gap: 10px;
+	  }
+  }
+
+  .grid .col{
+	padding: 4% 4% 4% 4%;
+  }
+
+  .item1 {
+	grid-row-start: 1;
+	grid-row-end: 3;
+  }
