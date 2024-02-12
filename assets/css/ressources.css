@@ -13,6 +13,7 @@
 	font-size: 36px;
 	text-align: center;
 	letter-spacing: -3px;
+	line-height: 1.1;
 }
 
 .ressources-docs a {
@@ -26,7 +27,7 @@
 }
 
 
-.grid div:hover {
+.ressources-docs .grid div:hover {
 	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 	z-index:10;
 	cursor: pointer;
@@ -34,7 +35,7 @@
 }
 
 .ressources-docs .grid{
-	padding: 5% 10% 8% 10%;
+	padding: 3% 10% 7% 10%;
 	text-align: center;
 }
 
@@ -155,3 +156,15 @@
   {
 	height: 100%;
   }
+
+
+  .tools .grid a:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	z-index:10;
+	cursor: pointer;
+}
+
+.tools a{
+	transition: all 0.5s ease-out;
+	border-radius: 10px;
+}

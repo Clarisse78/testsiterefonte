@@ -1,11 +1,29 @@
+* {
+	line-height : 1;
+}
+
 /* Main with Image Proxima */
 .main-background{
 	position: relative;
-	background-image: url("../img/Fond.png");
-	background-size: cover;
 	height: 100vh;
-	background-color: transparent;
+	background-color: #C7B7A3;
 	border: none;
+	background-position: center center;
+}
+
+
+/* Media query pour les appareils avec une largeur d'écran maximale de 768px (comme les iPads en mode portrait) */
+@media (max-width: 1280px) {
+    .main-background {
+        height: 65vh; /* Ajustez la hauteur selon vos préférences */
+    }
+}
+
+/* Media query pour les appareils avec une largeur d'écran maximale de 480px (comme les téléphones) */
+@media (max-width: 480px) {
+    .main-background {
+        height: 60vh; /* Ajustez la hauteur selon vos préférences */
+    }
 }
 
 img {
@@ -18,22 +36,36 @@ img {
 	width: 100%;
 	position: absolute;
 	text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .text-box h1 {
 	font-size: 110px;
-	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background: -webkit-linear-gradient(top, #d37e0e 10%, #440505 90%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
     letter-spacing: -10px;
 }
 
+
 .text-box p {
 	font-size: 50px;
-	color: #171a3d;
+	color: #6D2932;
     letter-spacing: -4px;
+	margin-top: 2%;
+}
+
+
+@media (max-width:767px)
+{
+	.text-box h1 {
+		font-size: 84px;
+		line-height: 1;
+	}
+	.text-box p {
+		font-size: 37px;
+	}
 }
 
 .bouton {
@@ -48,6 +80,7 @@ img {
 	cursor: pointer;
 	background: rgba(0,0,0,.6);
 	font-variant: small-caps;
+	margin-top: 2%;
 }
 
 .bouton:hover {
@@ -59,7 +92,7 @@ img {
 /* Columns with infos */
 
 .column{
-	background-color: #EFECEC;
+	background-color: #C7B7A3;
 }
 
 .col-1{
@@ -75,6 +108,7 @@ img {
 .column p {
 	font-size: .95rem;
 	color: #777;
+	padding-top: 1%;
 }
 
 .column h3 {
@@ -102,7 +136,7 @@ img {
 .row-3 div {
 	border-radius: 10px;
 	padding: 3% 4% 3% 4%;
-	background: #fff3f3;
+	background: #E8D8C4;
 	transition: all 0.5s ease-out;
 }
 

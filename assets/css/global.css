@@ -16,7 +16,7 @@ input, button, textarea, select { font: inherit }
 }
 
 .theme-proxima{
-    background: linear-gradient(to right, #1e224c, #e06743);
+    background: #561C24;
 }
 
 nav {
@@ -36,18 +36,18 @@ nav {
 	align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
 .container-menu {
 	justify-content: initial;
 }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     nav ul.links-wrapper {
         display: flex;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     ul.links-wrapper li {
         margin-right: 20px;
     }
@@ -59,6 +59,8 @@ ul.links-wrapper {
 
 nav.theme-proxima ul.links-wrapper li a:link, nav.theme-proxima ul.links-wrapper li a:visited {
 	color: #fff;
+	line-height: 1.5;
+
 }
 
 ul.links-wrapper li a:link:not(.btn), ul.links-wrapper li a:visited:not(.btn) {
@@ -79,10 +81,11 @@ ul.links-wrapper li a:not(.btn) {
 
 
 .brand{
-    width:4%;
+    width:5%;
+	z-index: 99;
 }
 
-@media (max-width:767px)
+@media (max-width:1280px)
 {
 	.brand{
 		width:8%;
@@ -145,6 +148,10 @@ img {
 	font-weight: 600;
   }
 
+  .footer a, .footer p{
+	line-height: 1.5;
+  }
+
 
 
 
@@ -155,7 +162,7 @@ img {
 	display: none;
   }
 
-@media (max-width: 767px) {
+@media (max-width: 720px) {
 	.nav-toggle {
 	  display: block;
 	}
@@ -165,13 +172,15 @@ img {
 	height: 40px;
 	position: absolute;
 	right: 16px;
-	top: 16px;
+	top: 4%;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
 }
 
-@media (max-width: 767px) {
+
+
+@media (max-width: 720px) {
 	ul.links-wrapper {
 	  visibility: hidden;
 	  opacity: 0;
@@ -188,12 +197,24 @@ img {
 	}
   }
 
+  @media (max-width: 650px) {
+	ul.links-wrapper {
+	  top: 50px;
+	}
+  }
 
-@media (max-width: 767px) {
+  @media (max-width: 500px) {
+	ul.links-wrapper {
+	  top: 33px;
+	}
+  }
+
+
+@media (max-width: 720px) {
 	ul.links-wrapper.active {
 	  visibility: visible;
 	  opacity: 1;
-	  z-index: 99;
+	  z-index: 98;
 	  transform: translateY(0);
 	  display: block;
 	  overscroll-behavior: contain;
@@ -207,7 +228,7 @@ img {
   }
 
   ul.links-wrapper.active {
-    background: linear-gradient(to right, #1e224c, #e06743);
+    background: #561C24;
   }
   
 

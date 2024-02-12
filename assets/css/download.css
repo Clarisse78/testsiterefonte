@@ -12,6 +12,12 @@
 	font-size: 36px;
 	text-align: center;
 	letter-spacing: -3px;
+	line-height: 1.2;
+	margin-bottom: 2%;
+}
+
+.defenses .col:not(:nth-child(3)){
+	margin-bottom: 4%;
 }
 
 .row{
@@ -42,6 +48,8 @@ h2 {
 	font-size: 2rem;
 	letter-spacing: -2px;
 	text-align: center;
+	line-height: 1.1;
+	margin-bottom: 3%;
 }
   
 
@@ -57,23 +65,25 @@ h2 {
 }
 
 .bouton {
+	display: inline-block;
 	text-decoration: none;
 	color: #ee4719;
-	box-shadow: 0 0 0 2px black;
+	border: 2px solid black;
 	padding: 15px 30px;
 	font-size: 20px;
 	background: transparent;
+	position: relative;
 	cursor: pointer;
 	background: rgba(0,0,0,.6);
-	transition: 1s;
-
+	font-variant: small-caps;
+	margin-top: 2%;
 }
 
-
 .bouton:hover {
+	border: 1px solid #1e224c;
 	background: #1e224c;
-  }
-
+	transition: 1s;
+}
   a:hover {
 	color: #0a58cb;
   }
@@ -121,4 +131,8 @@ h2 {
   .item1 {
 	grid-row-start: 1;
 	grid-row-end: 3;
+  }
+
+  .images-proxima img{
+	cursor: pointer;
   }

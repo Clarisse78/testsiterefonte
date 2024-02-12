@@ -14,7 +14,7 @@
 
     <nav class="theme-proxima">
         <div class="container-menu">
-            <a href="#" class="brand">
+            <a href="index.html" class="brand">
                 <img src="assets/img/LogoSite.png" class="logo-main" alt="Sample website logo">
             </a>
     
@@ -103,34 +103,43 @@
     <section class="images-proxima">
         <div class="grid">
             <div class="col item-1">
-                <img src="assets/img/hudd.png">
+                <img src="assets/img/hudd.png" onclick="openPicture('assets/img/hudd.png')">
             </div>
             <div class="col">
-                <img src="assets/img/donjon.png">
+                <img src="assets/img/donjon.png" onclick="openPicture('assets/img/donjon.png')">
             </div>
             <div class="col">
-                <img src="assets/img/noopySpe.png">
+                <img src="assets/img/noopySpe.png" onclick="openPicture('assets/img/noopySpe.png')">
             </div>
             <div class="col">
-                <img src="assets/img/armurier.png">
+                <img src="assets/img/armurier.png" onclick="openPicture('assets/img/armurier.png')">
             </div>
             <div class="col">
-                <img src="assets/img/buster.png">
+                <img src="assets/img/buster.png" onclick="openPicture('assets/img/buster.png')">
             </div>
             <div class="col">
-                <img src="assets/img/quest.png">
+                <img src="assets/img/quest.png" onclick="openPicture('assets/img/quest.png')">
             </div>
         </div>
     </section>
 
 
-
 <section class="footer theme-proxima">
-    <p>Github<a href="https://github.com/Clarisse78/luciledorset.github.io"><i class="fab fa-github fa-fw" style="color:blue; padding-left: 5px;"></i> </a></p>
+    <p>Github<a href="https://github.com/GodMELCorp/GodMELCorp.github.io"><i class="fab fa-github fa-fw" style="color:blue; padding-left: 5px;"></i> </a></p>
     <p>Made With <i class="fa fa-heart fa-solid" style="color: red;"></i> by GodMEL Corp</p>
 </section>
+<script>
 
-<script src="assets/js/global.js"></script>
+    // Fonction pour ouvrir une image en grand
+    function openPicture(imagePath) {
+        // Ouvrir l'image principale dans une nouvelle fenêtre
+        window.open(imagePath);
+    }
+</script>
+<script src="assets/js/global.js">
+
+     
+</script>
 
 </body>
 </html>
