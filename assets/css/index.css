@@ -89,6 +89,16 @@ img {
 	transition: 1s;
 }
 
+.container-media{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playButton {
+    position: absolute;
+    z-index: 1;
+}
+
 /* Columns with infos */
 
 .column{

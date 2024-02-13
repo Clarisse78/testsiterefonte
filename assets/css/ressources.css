@@ -1,10 +1,10 @@
 /* Ressources docs with infos */
 .ressources-docs{
-	background-color: #EFECEC;
+	background-color: #C7B7A3;
 }
 
 .ressources-docs h1{
-	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background:  -webkit-linear-gradient(top, #d37e0e 10%, #440505 90%);
 	background-clip: border-box;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -35,7 +35,7 @@
 }
 
 .ressources-docs .grid{
-	padding: 3% 10% 7% 10%;
+	padding: 3% 10% 5% 10%;
 	text-align: center;
 }
 
@@ -48,7 +48,7 @@
 .grid div {
 	border-radius: 10px;
 	padding: 3% 4% 3% 4%;
-	background: #fff3f3;
+	background: #E8D8C4;
 	transition: all 0.5s ease-out;
 }
 
@@ -56,7 +56,7 @@
 .ressources-docs .grid{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto); 
+    grid-template-rows: repeat(2, auto); 
     grid-column-gap: 10px; 
     grid-row-gap: 30px;
   }
@@ -73,7 +73,7 @@
   @media (min-width:1001px)
   {
 	.ressources-docs .grid{
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, auto); 
 	  }
   }
@@ -82,7 +82,7 @@
   {
 	.ressources-docs .grid{
 		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(9, auto); 
+		grid-template-rows: repeat(6, auto); 
 	  }
   }
 
@@ -90,11 +90,11 @@
 /*Members section*/
 
 .tools{
-	background-color: #EFECEC;
+	background-color: #C7B7A3;
 }
 
 .tools h1{
-	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background:  -webkit-linear-gradient(top, #d37e0e 10%, #440505 90%);
 	background-clip: border-box;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -105,7 +105,7 @@
 }
 
 .tools .col{
-	background: #fff3f3;
+	background: #E8D8C4;
 	text-align: center;
 	padding: 3%;
 	border-radius: 10px;
@@ -152,10 +152,7 @@
   }
 
 
-  .photon
-  {
-	height: 100%;
-  }
+ 
 
 
   .tools .grid a:hover {

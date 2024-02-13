@@ -1,9 +1,9 @@
 /* Section Defenses*/
 .defenses{
-	background-color: #EFECEC;
+	background-color: #C7B7A3;
 }
 .defenses h1{
-	background: -webkit-linear-gradient(top, #d33c0e 10%, #1e224c 90%);
+	background: -webkit-linear-gradient(top, #d37e0e 10%, #440505 90%);
 	background-clip: border-box;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -16,7 +16,7 @@
 	margin-bottom: 2%;
 }
 
-.defenses .col:not(:nth-child(3)){
+.defenses .col:not(:nth-child(2)){
 	margin-bottom: 4%;
 }
 
@@ -57,7 +57,7 @@ h2 {
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;
-	background: -webkit-linear-gradient(top, #070927 , #d33c0e );
+	background: -webkit-linear-gradient(top, #d37e0e 10%, #440505 90%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
@@ -92,7 +92,7 @@ h2 {
   /* Section Images*/
 
   .images-proxima{
-	background-color: #EFECEC;
+	background-color: #C7B7A3;
 	padding: 4%;
 }
 
